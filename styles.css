@@ -1,0 +1,63 @@
+
+.img{
+    height: 250px;
+    width: 250px;
+}
+.body{
+    
+    font-size:14px;
+}
+.p{
+    background-color:RGB(245,205,164);
+}
+.pas_de_retrait{
+    list-style-type:circle;
+    list-style-position:inside;
+    text-align:left;
+}
+.retrait{
+    list-style-type:square;
+    list-style-position:outside;
+}
+.a:hover{
+    text-decoration:underline;
+}
+.pa
+{
+    border:3px solid RGB(#ff0805);
+    padding:auto;
+    margin:25px;
+}
+.td
+{
+    border:1px solid black;
+    padding:30px;
+    
+}
+.table, th, td
+{
+    border-collapse:collapse;
+    border:1px solid black;
+}
+.caption
+{
+    caption-side:right;
+}
+.oh
+{
+ background-color:#ded557;
+ padding:20px;
+}
+.co
+{
+ background-color:red;
+}
+.text
+{
+ text-align:middle;
+ padding:15px;
+}
+.field
+{
+ border:2px solid green;
+}

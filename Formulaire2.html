@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon deuxième formulaire</title>
+</head>
+<body>
+        </center>
+        
+            <p><strong>Réservation d'un billet pour le vol 147</strong></p>
+        <form method="post" action="traitement.php">
+            <p>
+                <label for="nom">Saisissez votre nom:</br></label><input type="text" name="nom" id="nom"/><br/>
+                <label for="prénom(s)">Saisissez votre prénom:</br></label><input type="text" name="prénom" id="prénom"/><br/>
+                <label for="age">Saisissez votre âge:<br/></label><input type="text" name="age" id="age"/><br/>
+                <label for="contact">Saisissez votre contact:<br/></label><input type="text" name="contact" id="contact"/><br/>
+                <label for="e-mail">Saisissez votre adresse e-mail :<br/></label><input type="text" name="e-mail" id="e-mail"/><br/>
+                <label for="filière">Saisissez votre métier ou filière :</br></label><input type="text" name="filière" id="filière"/><br/>
+                </p>
+                <fieldset>
+      <form method="post" action="traitement.php">
+          <p><strong>
+            <label for="pays">Quel est votre pays de destination ?</label></strong><br/>
+            <select name="pays" id="pays">
+              <outgroup label="Europe">
+                    <option value="France">France</option><br/>
+                    <option value="Espagne">Espagne</option><br/>
+                    <option value="Italie">Italie</option><br/>
+                    <option value="Royaume-Uni">Royaume-Uni</option><br/>
+              </outgroup>
+              <outgroup label="Afrique">
+                    <option value="Bénin">Bénin</option><br/>
+                    <option  value="Nigéria">Nigéria</option><br/>
+                    <option value="Afrique du Sud">Afrique du sud</option><br/><script>false</script>
+              </optgroup>
+              <optgroup label="Asie">
+                    <option value="Inde">Inde</option><br/>
+                    <option value="Chine">Chine</option><br/>
+                    <option value="Japon">Japon</option>
+              </optgroup><br/>
+              <option value="Autre">Autre</option>
+            </select>
+            <p>
+<labelfor="precisions">Si "Autre", veuillez préciser:</label><br />
+<textarea name="precisions"id="precisions"cols="40"rows="4"tabindex="80"></textarea>
+</p>
+              </p>
+      </form>
+    </fieldset>
+                <p>
+                <strong>Cochez les aliments que vous aimeriez manger durant votre voyage :</strong><br/>
+                <br/><input type="checkbox" name="frites" id="frites"/><label for="frites">Frites</label><br/>
+                <input type="checkbox" name="alloco" id="alloco"/><label for="alloco">Alloco</label><br/>
+                <input type="checkbox" name="Charwama" id="Charwama"/><label for="Charwama">Charwama</label><br/>
+                <input type="checkbox" name="pizza" id="pizza"/><label for="pizza">Pizza 🍕</label><br/>
+                <input type="checkbox" name="Autres" id="Autres"/><label for="Autres">Autres nourritures</label><br/>
+                <strong><label for="Opinion">Avez-vous aimé votre voyage?</label></strong></p>
+                <input type="radio" name="Opinion" id="yes"/><label for="yes">Oui, c'était cool</label><br/>
+                <input type="radio" name="Opinion" id="pml"/><label for="pml">Oui mais pas totalement</label><br/>
+                <input type="radio" name="Opinion" id="no"/><label for="no">Non</label><br/>
+                <br/></br/><strong><label for ="ameliorer">Quelle suggestion avez-vous à nous faire ?</label></strong><br/>
+                <textarea name="ameliorer" id="ameliorer" rows="10" cols="50"></textarea><br/>
+                </br><strong><label for ="ameliorer">**Comment pensez-vous que je pourrais améliorer mon site ?**</label></strong><br/>
+                <textarea name="ameliorer" id="ameliorer" rows="10" cols="50"></textarea>
+            </p>
+            <p>
+              <input type="submit"/><input type="reset"/>
+            </p>
+        </form>
+    </p>
+</body>
+</html>
